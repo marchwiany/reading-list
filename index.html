@@ -1,0 +1,18 @@
+---
+layout: default
+title: Reading List
+---
+
+<h1>Reading List</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <p>{{ post.author }}</p>
+      <ul>
+        <li>Pages {{ post.pages }}</li>
+        <li>Published {{ post.published }}</li>
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
