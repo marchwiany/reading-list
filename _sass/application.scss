@@ -1,0 +1,51 @@
+@import "bourbon";
+@import "neat";
+
+// Settings
+  @import "settings/settings";
+
+// Base Styles
+  @import "base/typography";
+
+// Components List
+  @import "components/buttons";
+  @import "components/sprite";
+  @import "components/footer";
+  @import "components/navigation";
+  @import "components/forms";
+  @import "components/table";
+  @import "components/modal";
+
+
+// Page Styles
+  @import "pages/dashboard";
+  @import "pages/book";
+
+
+
+
+.accordion-tabs {
+  padding: 0;
+
+  .tab-header-and-content {
+    list-style: none;
+    display: inline;
+  }
+
+  .tab-link {
+    padding-right: 1em;
+    display: inline-block;
+  }
+
+  .is-active {
+    color: #ff0000;
+  }
+
+  .tab-content {
+    display: none;
+    width: 100%;
+    float: left;
+  }
+}
+
+

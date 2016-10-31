@@ -28,6 +28,8 @@ github_username:  jekyll
 markdown: kramdown
 gems:
   - jekyll-feed
+  - bourbon
+  - neat
 exclude:
   - Gemfile
   - Gemfile.lock

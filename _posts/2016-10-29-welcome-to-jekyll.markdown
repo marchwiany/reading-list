@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Atlus Shrugged"
-tags: [readers, board]
+readers: 1
+boards:
 author: Ayn Rand
 pages: 1020
 published: 1020

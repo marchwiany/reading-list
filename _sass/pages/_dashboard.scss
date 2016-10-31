@@ -1,0 +1,18 @@
+.page-content{
+  @include media($tablet){
+    margin-left: $nav-desktop-width;
+    width: calc(100% - $nav-desktop-width);
+  }
+
+  .wrapper{
+    @include rem(padding, 40px 20px);
+  }
+}
+
+.book{
+  background-color: $white-base;
+  height: 315px;
+  @include span-columns(3 of 12);
+  @include omega(4n);
+  text-align: center;
+}
