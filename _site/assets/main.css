@@ -1396,6 +1396,20 @@ table select {
   .book:nth-child(4n+1) {
     clear: left; }
 
+.post-content {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 57.35098%;
+  margin-left: 21.32451%; }
+  .post-content:last-child {
+    margin-right: 0; }
+  .post-content p:first-child {
+    font-size: 18px;
+    font-size: 1.2rem;
+    line-height: 28.5px;
+    line-height: 1.9rem; }
+
 .accordion-tabs {
   padding: 0; }
   .accordion-tabs .tab-header-and-content {

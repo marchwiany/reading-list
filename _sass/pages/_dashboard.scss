@@ -16,3 +16,13 @@
   @include omega(4n);
   text-align: center;
 }
+
+//Post
+.post-content{
+  @include span-columns(7 of 12);
+  @include shift(2.5);
+
+  p:first-child{
+    @include s-big;
+  }
+}
